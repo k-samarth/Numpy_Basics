@@ -16,3 +16,5 @@ def sigmoid(x):
     ### END CODE HERE ###
     
     return s
+x = np.array([1, 2, 3])
+sigmoid(x)
