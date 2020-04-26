@@ -10,10 +10,8 @@ def sigmoid(x):
     Return:
     s -- sigmoid(x)
     """
-    
-    ### START CODE HERE ### (≈ 1 line of code)
+   
     s = 1/(1+np.exp(-x))
-    ### END CODE HERE ###
     
     return s
 x = np.array([1, 2, 3])
