@@ -1,0 +1,5 @@
+train_set_x_flatten shape: (12288, 209)
+train_set_y shape: (1, 209)
+test_set_x_flatten shape: (12288, 50)
+test_set_y shape: (1, 50)
+sanity check after reshaping: [17 31 56 22 33]
