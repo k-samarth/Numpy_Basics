@@ -55,3 +55,25 @@ print ("sanity check after reshaping: " + str(train_set_x_flatten[0:5,0]))
 train_set_x = train_set_x_flatten/255.
 test_set_x = test_set_x_flatten/255.
 
+# sigmoid
+
+def sigmoid(z):
+    """
+    Compute the sigmoid of z
+
+    Arguments:
+    z -- A scalar or numpy array of any size.
+
+    Return:
+    s -- sigmoid(z)
+    """
+
+    s = 1/(1+np.exp(-z))
+    
+    
+    return s
+  
+print ("sigmoid([0, 2]) = " + str(sigmoid(np.array([0,2]))))
+
+#Output_sigmoid represents the above code
+
