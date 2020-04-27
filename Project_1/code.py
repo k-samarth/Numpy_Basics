@@ -51,3 +51,7 @@ print ("sanity check after reshaping: " + str(train_set_x_flatten[0:5,0]))
 
 #Output_flatten gives output of above code
 
+#preprocessing
+train_set_x = train_set_x_flatten/255.
+test_set_x = test_set_x_flatten/255.
+
