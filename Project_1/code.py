@@ -35,6 +35,8 @@ print ("train_set_y shape: " + str(train_set_y.shape))
 print ("test_set_x shape: " + str(test_set_x_orig.shape))
 print ("test_set_y shape: " + str(test_set_y.shape))
 
+#Output_shape gives output of above code
+
 
 # Reshape the training and test examples
 
@@ -46,4 +48,6 @@ print ("train_set_y shape: " + str(train_set_y.shape))
 print ("test_set_x_flatten shape: " + str(test_set_x_flatten.shape))
 print ("test_set_y shape: " + str(test_set_y.shape))
 print ("sanity check after reshaping: " + str(train_set_x_flatten[0:5,0]))
+
+#Output_flatten gives output of above code
 
