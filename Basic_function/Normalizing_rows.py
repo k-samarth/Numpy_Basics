@@ -15,7 +15,7 @@ def normalizeRows(x):
     
     # Divide x by its norm.
     x = x/x_norm
-    
+    """hauhuahuhua"""
 
     return x
     
